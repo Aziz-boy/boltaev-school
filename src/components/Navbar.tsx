@@ -122,6 +122,9 @@ export const Navbar = () => {
                 })}`}
               >
                 {route.label}
+
+
+                
               </a>
             ))}
           </nav>
