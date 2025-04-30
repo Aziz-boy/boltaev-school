@@ -114,9 +114,6 @@ export const Navbar = () => {
           <nav className="hidden md:flex gap-2">
             {routeList.map((route: RouteProps, i) => (
               <a
-
-
-              
                 rel="noreferrer noopener"
                 href={route.href}
                 key={i}
