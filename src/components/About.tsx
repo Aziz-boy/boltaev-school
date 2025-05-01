@@ -15,13 +15,17 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                Natijalar{" "}
+                  Natijalar{" "}
                 </span>
                 biz uchun gapiradi 🎓
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
                 Boltaev School — bu huquq, tarix va ingliz tili fanlari bo‘yicha
-                ixtisoslashgan zamonaviy ta’lim markazi. 
+                ixtisoslashgan zamonaviy ta’lim markazi. Bizning o‘quvchilarimiz
+                Tashkent davlat Yuridik universiteti va boshqa nufuzli oliy
+                ta’lim muassasalariga muvaffaqiyatli kirib bormoqda. <br /> <br /> <br /> Maqsadimiz
+                — har bir o‘quvchining intellektual salohiyatini ochish, ularni
+                tanlagan yo‘nalishida ishonch bilan olg‘a yurishga tayyorlash.
                 Boltaev School’da huquq, tarix, matematika, CEFR, IELTS va ona
                 tili fanlaridan yuqori sifatli, tizimli ta’lim taklif etiladi.
                 Har bir fan bo‘yicha tajribali ustozlar va amaliy natijaga
