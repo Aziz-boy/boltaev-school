@@ -1,5 +1,5 @@
 import { Statistics } from "./Statistics";
-import pilot from "../assets/pilot.png";
+// import pilot from "../assets/pilot.png";
 
 export const About = () => {
   return (
@@ -7,7 +7,7 @@ export const About = () => {
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
-            src={pilot}
+            src="https://i.ibb.co/m5tH7d64/image.png"
             alt=""
             className="w-[300px] object-contain rounded-lg"
           />
@@ -15,17 +15,17 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  Biz{" "}
+                Natijalar{" "}
                 </span>
-                Haqimizda
+                biz uchun gapiradi 🎓
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Boltaev School — bu zamonaviy yondashuv asosida ta’lim beruvchi
-                kurs markazi. Biz Ingliz Tili, IELTS, CEFR, Huquq va Tarix
-                fanlari bo‘yicha yuqori sifatli darslar taklif etamiz.
-                Maqsadimiz — har bir o‘quvchining bilim va ko‘nikmalarini
-                rivojlantirish orqali ularni kelajakdagi muvaffaqiyatga
-                tayyorlash.
+                Boltaev School — bu huquq, tarix va ingliz tili fanlari bo‘yicha
+                ixtisoslashgan zamonaviy ta’lim markazi. 
+                Boltaev School’da huquq, tarix, matematika, CEFR, IELTS va ona
+                tili fanlaridan yuqori sifatli, tizimli ta’lim taklif etiladi.
+                Har bir fan bo‘yicha tajribali ustozlar va amaliy natijaga
+                yo‘naltirilgan metodika — bizning asosiy ustunligimizdir.
               </p>
             </div>
 
