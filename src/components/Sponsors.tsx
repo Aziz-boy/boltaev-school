@@ -1,34 +1,29 @@
-import { Radar } from "lucide-react";
-
 interface SponsorProps {
-  icon: JSX.Element;
+  imageUrl?: string; // optional image
   name: string;
 }
 
 const sponsors: SponsorProps[] = [
   {
-    icon: <Radar size={34} />,
-    name: "TalimTech",
+    imageUrl: "https://i.ibb.co/DPzt2pmG/College-Counsellingnew-LOGO.png",
+    name: "CollegeCounselling",
   },
   {
-    icon: <Radar size={34} />,
-    name: "InnoEdu",
+    imageUrl: "https://i.ibb.co/F4ZKVFyK/intelect-logo.jpg",
+    name: "Intellect",
+  },
+  { imageUrl: "https://i.ibb.co/j9DmGHZZ/telegram-cloud-photo-size-2-5231000979908982352-x.jpg",
+    name: "Forever Study",
   },
   {
-    icon: <Radar size={34} />,
-    name: "EduBoost",
+    name: "Friday Talks",
   },
   {
-    icon: <Radar size={34} />,
-    name: "StudyLink",
+    imageUrl: "https://i.ibb.co/6JFDfb5v/telegram-cloud-photo-size-2-5231000979908982347-x.jpg",
+    name: "Boltaev School",
   },
   {
-    icon: <Radar size={34} />,
-    name: "FutureLearn",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "SkillGrow",
+    name: "SkillSwap",
   },
 ];
 
@@ -39,17 +34,24 @@ export const Sponsors = () => {
       className="container pt-24 sm:py-32"
     >
       <h2 className="text-center text-md lg:text-xl font-bold mb-8 text-primary">
-        Investors and Founders
+        Hamkorlar
       </h2>
 
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
-        {sponsors.map(({ icon, name }: SponsorProps) => (
+        {sponsors.map(({ imageUrl, name }) => (
           <div
             key={name}
-            className="flex items-center gap-1 text-muted-foreground/60"
+            className="flex items-center gap-2 text-muted-foreground/60"
           >
-            <span>{icon}</span>
-            <h3 className="text-xl font-bold">{name}</h3>
+            {imageUrl ? (
+              <img
+                src={imageUrl}
+                alt={name}
+                className="h-10 object-contain"
+              />
+            ) : (
+              <h3 className="text-xl font-bold">{name}</h3>
+            )}
           </div>
         ))}
       </div>
