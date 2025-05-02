@@ -18,22 +18,37 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Moslashuvchan dizayn",
-    description:
-      "Sayt barcha qurilmalarda to‘liq ishlaydi — telefon, planshet va kompyuterlar uchun moslashtirilgan.",
-    image: image4,
+    title: "Irzayeva E'zoza",
+    description: "Toshkent davlat yuridik Universiteti 181.70 ball ",
+    image: "https://i.ibb.co/xKnvhrRP/image.png",
   },
   {
-    title: "Foydalanuvchiga qulay interfeys",
-    description:
-      "Oddiy va tushunarli tuzilma — kerakli kurs va ma’lumotni oson topasiz.",
-    image: image3,
+    title: "Samadov Azizbek",
+    description: "Jahoniy iqtisodiyot va diplomatiya 185.70 ball",
+    image: "https://i.ibb.co/sv3z4chF/image.png",
   },
   {
-    title: "Sun’iy intellekt asosidagi tavsiyalar",
+    title: "Rasulov Umid",
+    description: "Oliy harbiy ta'lim muassasasi 172.20 ball",
+    image: "https://i.ibb.co/xKVtgV0B/image.png",
+  },
+  {
+    title: "Yarashov Rahmatjon",
     description:
-      "Talaba ehtiyojlariga mos kurslarni taklif qilish uchun sun’iy intellekt yondashuvi ishlatilgan.",
-    image: image,
+      "Toshkent davlat yuridik universiteti 187.90 ball",
+    image: "https://i.ibb.co/nq6hJXtc/telegram-cloud-photo-size-2-5424992141429562924-y.jpg",
+  },
+  {
+    title: "Rayimova Moxinabonu",
+    description:
+      "Milliy Sertifikat tarix A daraja 100% ko'rsatkich",
+    image: "https://i.ibb.co/YFJZqqFY/image.png",
+  },
+  {
+    title: "Yarashov Rahmatjon",
+    description:
+      "Milliy Sertifikat tarix A daraja 100% ko'rsatkich",
+    image: "https://i.ibb.co/HL49NcdF/image.png",
   },
 ];
 
@@ -51,24 +66,18 @@ const featureList: string[] = [
 
 export const Features = () => {
   return (
-    <section
-      id="features"
-      className="container py-24 sm:py-32 space-y-8"
-    >
+    <section id="features" className="container py-24 sm:py-32 space-y-8">
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Ko‘plab{" "}
+        Bizning{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Ajoyib Xususiyatlar
+          Natijalar
         </span>
       </h2>
 
       <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
-            <Badge
-              variant="secondary"
-              className="text-sm"
-            >
+            <Badge variant="secondary" className="text-sm">
               {feature}
             </Badge>
           </div>
