@@ -26,69 +26,64 @@ interface PricingProps {
 
 const pricingList: PricingProps[] = [
   {
-    title: "Free",
-    popular: 0,
-    price: 0,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get Started",
-    benefitList: [
-      "1 Team member",
-      "2 GB Storage",
-      "Upto 4 pages",
-      "Community support",
-      "lorem ipsum dolor",
-    ],
-  },
-  {
-    title: "Premium",
+    title: "Huquq kursi",
     popular: 1,
-    price: 5,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+    price: 400_000,
+    description: "Toshkent Davlat Yuridik Universitetiga tayyorlov kurslari.",
+    buttonText: "Ro‘yxatdan o‘tish",
     benefitList: [
-      "4 Team member",
-      "4 GB Storage",
-      "Upto 6 pages",
-      "Priority support",
-      "lorem ipsum dolor",
+      "Tajribalı o‘qituvchilar",
+      "Testlar va nazoratlar",
+      "Qo‘shimcha materiallar",
+      "Telegram orqali maslahatlar",
+      "Haftada 6 dars",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Tarix kursi",
     popular: 0,
-    price: 40,
+    price: 400_000,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "Tarix fanidan DTM va universitet imtihonlariga tayyorlov kursi.",
+    buttonText: "Kursga yozilish",
     benefitList: [
-      "10 Team member",
-      "8 GB Storage",
-      "Upto 10 pages",
-      "Priority support",
-      "lorem ipsum dolor",
+      "DTMga mos testlar",
+      "Nazorat ishlari",
+      "O'qituvchidan shaxsiy feedback",
+      "Online va offline rejimlar",
+      "Haftada 6 dars",
+    ],
+  },
+  {
+    title: "IELTS kursi",
+    popular: 0,
+    price: 400_000,
+    description:
+      "IELTS imtihoniga tayyorlanish uchun intensiv kurs. Oylik to‘lov.",
+    buttonText: "Boshlash",
+    benefitList: [
+      "Speaking club",
+      "Writing tahlillari",
+      "Listening va Reading praktika",
+      "Band 6.5+ strategiyasi",
+      "Haftada 5-6 dars",
     ],
   },
 ];
 
 export const Pricing = () => {
   return (
-    <section
-      id="pricing"
-      className="container py-24 sm:py-32"
-    >
+    <section id="pricing" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold text-center">
-        Get
+        Sizga
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          Unlimited{" "}
+          mos kursni{" "}
         </span>
-        Access
+        tanlang
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-        reiciendis.
+        Har bir bilim — o‘z vaqtida qilingan eng yaxshi sarmoya.
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (
@@ -104,17 +99,14 @@ export const Pricing = () => {
               <CardTitle className="flex item-center justify-between">
                 {pricing.title}
                 {pricing.popular === PopularPlanType.YES ? (
-                  <Badge
-                    variant="secondary"
-                    className="text-sm text-primary"
-                  >
+                  <Badge variant="secondary" className="text-sm text-primary">
                     Most popular
                   </Badge>
                 ) : null}
               </CardTitle>
               <div>
-                <span className="text-3xl font-bold">${pricing.price}</span>
-                <span className="text-muted-foreground"> /month</span>
+                <span className="text-3xl font-bold">{pricing.price}so'm</span>
+                <span className="text-muted-foreground"> /oylik</span>
               </div>
 
               <CardDescription>{pricing.description}</CardDescription>
@@ -129,10 +121,7 @@ export const Pricing = () => {
             <CardFooter className="flex">
               <div className="space-y-4">
                 {pricing.benefitList.map((benefit: string) => (
-                  <span
-                    key={benefit}
-                    className="flex"
-                  >
+                  <span key={benefit} className="flex">
                     <Check className="text-green-500" />{" "}
                     <h3 className="ml-2">{benefit}</h3>
                   </span>
