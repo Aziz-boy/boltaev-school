@@ -18,19 +18,19 @@ const features: FeatureProps[] = [
     icon: <MapIcon />,
     title: "Joylashuv qulayligi",
     description:
-      "Markazimiz shaharning markazida joylashgan, yetib borish oson va qulay.",
+      "Markazimiz tuman markazida joylashgan, yetib borish oson va qulay.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Masofaviy o‘qish",
+    title: "O‘qish vaqti qulay",
     description:
-      "Online darslar orqali istalgan hududdan qatnashish imkoniyati mavjud.",
+    "Darslar sahar soat 5:30 da boshlanadi. Bu vaqt maktab darslariga xalaqit bermaydi va kuningiz unumli boshlanadi.",
   },
   {
     icon: <GiftIcon />,
     title: "Bonus darslar",
     description:
-      "Qo‘shimcha bepul amaliy mashg‘ulotlar va test sinovlari taqdim etiladi.",
+      "Qo‘shimcha haftalik bepul amaliy mashg‘ulotlar va test sinovlari taqdim etiladi.",
   },
 ];
 
