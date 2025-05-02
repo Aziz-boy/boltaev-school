@@ -26,15 +26,15 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#features",
-    label: "Features",
+    label: "Natijalar",
   },
   {
     href: "#testimonials",
-    label: "Testimonials",
+    label: "Fikr-mulohazalar",
   },
   {
     href: "#pricing",
-    label: "Pricing",
+    label: "Narxlar",
   },
   {
     href: "#faq",
@@ -96,7 +96,7 @@ export const Navbar = () => {
                   ))}
                   <a
                     rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+                    href="https://github.com/aziz-boy"
                     target="_blank"
                     className={`w-[110px] border ${buttonVariants({
                       variant: "secondary",
@@ -129,7 +129,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/aziz-boy"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
