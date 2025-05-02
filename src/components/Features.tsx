@@ -50,16 +50,15 @@ const features: FeatureProps[] = [
 ];
 
 const featureList: string[] = [
-  "Qorong‘i/Yorug‘ rejim",
-  "Izohlar",
-  "Xususiyatlar",
-  "Narxlar",
-  "Bog‘lanish formasi",
-  "Jamoamiz",
-  "Moslashuvchan dizayn",
-  "Yangiliklar byulleteni",
-  "Minimalistik ko‘rinish",
+  "Toshkent Davlat Yuridik Universiteti",
+  "O‘zbekiston Milliy Universiteti",
+  "Buxoro Davlat Universiteti",
+  "Diplomatiya ",
+  "Harbiy Akademiya",
+  "DXX",
+  "Huquqni Muhofaza Qilish Akademiyasi",
 ];
+
 
 export const Features = () => {
   return (

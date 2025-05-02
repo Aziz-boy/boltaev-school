@@ -6,29 +6,32 @@ interface ServiceProps {
   title: string;
   description: string;
   icon: JSX.Element;
+  link: string; // Adding the link property
 }
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Onlayn Darslarni Hamkorlikda Yaratish",
+    title: "Tarix bo'yicha testlar yaratish uchun AI",
     description:
-      "Bizning platformamiz orqali darslar yaratishda birgalikda ishlash, o'quvchilar va o'qituvchilar o'rtasida samarali hamkorlikni ta'minlash.",
+      "Tarix bo'yicha testlarni tuzib beradigan  AI ham mavjud bo'lib, u orqali testlarni tez va oson yaratishingiz mumkin. Batafsil ma'lumot uchun quyidagi havolaga qarang:",
+    link: "https://boltaev-school.vercel.app/", 
     icon: <ChartIcon />,
   },
   {
-    title: "O'quv Dasturlarini Boshqarish",
+    title: "College Cunseling",
     description:
-      "O'quv dasturlarini boshqarish va ularga moslashtirilgan yondashuvlar orqali o'quvchilarga eng yaxshi ta'limni taqdim etish.",
+      "Chet davlatda o'qish uchun ariza topshirish jarayonini osonlashtirish va sizga eng mos universitetlarni topishga yordam berish.",
+    link: "https://t.me/College_counseling", 
     icon: <WalletIcon />,
   },
   {
-    title: "Vazifalarni Avtomatlashtirish",
+    title: "Barcha tarix va Huquq darsliklar",
     description:
-      "Darslar va o'quv vazifalarini avtomatlashtirish orqali o'qituvchilar va o'quvchilarning vaqtini tejash va samaradorlikni oshirish.",
+      "Bizning platformamizda barcha tarix va huquq darsliklari mavjud. Siz o'zingizga kerakli darslikni topishingiz mumkin.",
+    link: "https://t.me/boltayev_huquq", 
     icon: <MagnifierIcon />,
   },
 ];
-
 
 export const Services = () => {
   return (
@@ -37,32 +40,42 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Mijozlarga Yo‘naltirilgan{" "}
+              O'quvchilar uchun{" "}
             </span>
-            Xizmatlar
+            qulayliklar
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Biz mijozlarimizga eng yaxshi xizmatni taqdim etishga intilamiz,
+            Biz o'quvchilarimizga eng yaxshi xizmatni taqdim etishga intilamiz,
             innovatsion yechimlar bilan.
           </p>
 
           <div className="flex flex-col gap-8">
-            {serviceList.map(({ icon, title, description }: ServiceProps) => (
-              <Card key={title}>
-                <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
-                  <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
-                    {icon}
-                  </div>
-                  <div>
-                    <CardTitle>{title}</CardTitle>
-                    <CardDescription className="text-md mt-2">
-                      {description}
-                    </CardDescription>
-                  </div>
-                </CardHeader>
-              </Card>
-            ))}
+            {serviceList.map(
+              ({ icon, title, description, link }: ServiceProps) => (
+                <Card key={title}>
+                  <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
+                    <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
+                      {icon}
+                    </div>
+                    <div>
+                      <CardTitle>{title}</CardTitle>
+                      <CardDescription className="text-md mt-2">
+                        {description}{" "}
+                        <a
+                          href={link}
+                          className="text-primary hover:underline"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Batafsil ma'lumot
+                        </a>
+                      </CardDescription>
+                    </div>
+                  </CardHeader>
+                </Card>
+              )
+            )}
           </div>
         </div>
 
