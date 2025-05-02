@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            <span className="ml-2">Boltaevs School</span>
+            <span className="ml-2">Boltaev School</span>
           </a>
         </div>
 
