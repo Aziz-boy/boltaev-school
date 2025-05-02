@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            ShadcnUI/React
+            <span className="ml-2">Boltaevs School</span>
           </a>
         </div>
 
@@ -55,7 +55,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://boltaevs-school.vercel.app/"
               className="opacity-60 hover:opacity-100"
             >
               Web
@@ -65,7 +65,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://boltaevs-school.vercel.app/"
               className="opacity-60 hover:opacity-100"
             >
               Mobile
@@ -75,7 +75,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://boltaevs-school.vercel.app/"
               className="opacity-60 hover:opacity-100"
             >
               Desktop
@@ -121,7 +121,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.youtube.com/@AzizboySwift"
               className="opacity-60 hover:opacity-100"
             >
               Youtube
@@ -156,7 +156,7 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href="https://www.linkedin.com/in/azizbek-hakimov/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
             Azizboy Hakimov
