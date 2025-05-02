@@ -156,7 +156,7 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/azizbek-hakimov/"
+            href="https://t.me/AzizboyFikrlog/379"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
             Azizboy Hakimov
