@@ -100,7 +100,7 @@ export const Pricing = () => {
                 {pricing.title}
                 {pricing.popular === PopularPlanType.YES ? (
                   <Badge variant="secondary" className="text-sm text-primary">
-                    Most popular
+                    Eng mashhur
                   </Badge>
                 ) : null}
               </CardTitle>
