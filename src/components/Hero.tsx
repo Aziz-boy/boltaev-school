@@ -24,7 +24,7 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Huquq, Tarix, IELTS, CEFR va Matematika bo‘yicha sifatli ta’limni biz
+          Huquq, Tarix, IELTS, CEFR Matematika va Ona tili bo‘yicha sifatli ta’limni biz
           bilan boshlang!
         </p>
 
@@ -34,7 +34,7 @@ export const Hero = () => {
             target="_blank" // Open in a new tab
             rel="noreferrer noopener" // Security for external links
           >
-            <Button className="w-full md:w-1/3">Ro‘yxatdan o‘tish</Button>
+            <Button className="w-full md:w-1/3">Bog'lanish</Button>
           </a>
 
           <a

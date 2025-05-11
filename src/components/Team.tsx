@@ -70,7 +70,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "Telegram",
-        url: "https://www.linkedin.com/in/azizbek-hakimov/",
+        url: "https://t.me/intellect_ec",
       },
       {
         name: "Instagram",
@@ -84,8 +84,23 @@ const teamList: TeamProps[] = [
     position: "IELTS/CEFR Teacher",
     socialNetworks: [
       {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        name: "Telegram",
+        url: "https://t.me/intellect_ec",
+      },
+      {
+        name: "Facebook",
+        url: "https://www.facebook.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: "https://i.ibb.co/G3ctyXx1/telegram-peer-photo-size-2-5426969342509177963-1-0-0.jpg",
+    name: "Karimova",
+    position: "Ona tili o'qituvchisi",
+    socialNetworks: [
+      {
+        name: "Telegram",
+        url: "https://t.me/+998919211535",
       },
       {
         name: "Facebook",
