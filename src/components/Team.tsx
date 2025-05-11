@@ -79,7 +79,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
+    imageUrl: "https://i.ibb.co/HTpbNwLy/telegram-cloud-photo-size-2-5262483193267879873-x.jpg",
     name: "Teshayev Husniddin",
     position: "IELTS/CEFR Teacher",
     socialNetworks: [
