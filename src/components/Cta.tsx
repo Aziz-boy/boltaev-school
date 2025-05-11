@@ -14,20 +14,28 @@ export const Cta = () => {
             Bitta Platformada
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            Boltaev School sizga kerakli barcha ta’lim yo‘nalishlarini bir joyda
-            taqdim etadi: Ingliz tili, IELTS, CEFR, huquq, tarix matematika, ona
-            tili. O‘rganishni biz bilan boshlang!
+            Boltayev School sizga kerakli barcha ta’lim yo‘nalishlarini bir
+            joyda taqdim etadi: Ingliz tili, IELTS, CEFR, huquq, tarix
+            matematika, ona tili. O‘rganishni biz bilan boshlang!
           </p>
         </div>
 
         <div className="space-y-4 lg:col-start-2">
-          <a href="https://t.me/+998883070555" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://t.me/+998883070555"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button className="w-full md:mr-4 md:w-auto">
               Demo darsga qatnashish
             </Button>
           </a>
 
-          <a href="https://t.me/boltaev_huquq" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://t.me/Boltayev_huquq"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button variant="outline" className="w-full md:w-auto">
               Bizni kuzatish
             </Button>

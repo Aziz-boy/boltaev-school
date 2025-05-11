@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            <span className="ml-2">Boltaev School</span>
+            <span className="ml-2">Boltayev School</span>
           </a>
         </div>
 
@@ -55,7 +55,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://boltaevs-school.vercel.app/"
+              href="https://Boltayevs-school.vercel.app/"
               className="opacity-60 hover:opacity-100"
             >
               Web
@@ -65,7 +65,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://boltaevs-school.vercel.app/"
+              href="https://Boltayevs-school.vercel.app/"
               className="opacity-60 hover:opacity-100"
             >
               Mobile
@@ -75,7 +75,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://boltaevs-school.vercel.app/"
+              href="https://Boltayevs-school.vercel.app/"
               className="opacity-60 hover:opacity-100"
             >
               Desktop

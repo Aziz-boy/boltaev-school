@@ -1,6 +1,6 @@
 {
-  "name": "boltaev-school",
-  "description": "Landing page utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "boltayev-school",
+  "description": "Boltaev School Peshko'dagi eng yirik o'quv markazi",
   "author": {
     "name": "Azizbek Hakimov",
     "email": "shavgoniaziz@gmail.com",
@@ -8,14 +8,14 @@
   },
   "license": "MIT",
   "keywords": [
-    "react",
-    "typescript",
-    "shadcn",
-    "shadcn/ui",
-    "tailwind",
-    "landing-page",
-    "template",
-    "responsive-design"
+    "IELTS",
+    "Huquq",
+    "Ona-tili",
+    "Matematika",
+    "Boltayev School",
+    "Cefr",
+    "Tarix",
+    "Grammar"
   ],
   "private": true,
   "version": "1.1.0",

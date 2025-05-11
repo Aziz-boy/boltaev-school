@@ -23,7 +23,8 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.ibb.co/9mMZzFBL/telegram-cloud-photo-size-2-5235805484945108131-x.jpg",
+    imageUrl:
+      "https://i.ibb.co/9mMZzFBL/telegram-cloud-photo-size-2-5235805484945108131-x.jpg",
     name: "Sobirov Quvonchbek",
     position: "Matematika o'qituvchisi",
     socialNetworks: [
@@ -42,9 +43,10 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.ibb.co/5WwbJvGW/telegram-cloud-photo-size-2-5262483193267878527-x.jpg",
-    name: "Jonibek Boltaev",
-    position: "Boltaev school Asoschisi",
+    imageUrl:
+      "https://i.ibb.co/5WwbJvGW/telegram-cloud-photo-size-2-5262483193267878527-x.jpg",
+    name: "Jonibek Boltayev",
+    position: "Boltayev school Asoschisi",
     socialNetworks: [
       {
         name: "Telegram",
@@ -61,13 +63,14 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.ibb.co/HTtjbpcm/telegram-cloud-photo-size-2-5258030562017406802-y.jpg",
+    imageUrl:
+      "https://i.ibb.co/HTtjbpcm/telegram-cloud-photo-size-2-5258030562017406802-y.jpg",
     name: "Muhammad Navro'zov",
     position: "IELTS Teacher",
     socialNetworks: [
       {
         name: "Telegram",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/azizbek-hakimov/",
       },
       {
         name: "Instagram",
@@ -118,7 +121,9 @@ export const Team = () => {
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Boltaev Kurs Centeri jamoasi yuqori malakali o'qituvchilar va mutaxassislardan iborat bo'lib, har bir talabaning muvaffaqiyatiga hissa qo'shadi.
+        Boltayev Kurs Centeri jamoasi yuqori malakali o'qituvchilar va
+        mutaxassislardan iborat bo'lib, har bir talabaning muvaffaqiyatiga hissa
+        qo'shadi.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
@@ -142,7 +147,7 @@ export const Team = () => {
 
               <CardContent className="text-center pb-2">
                 <p>
-                  Boltaev Kurs Centeri jamoasi a'zosining har biri o'z sohasida
+                  Boltayev Kurs Centeri jamoasi a'zosining har biri o'z sohasida
                   professional va tajribali.
                 </p>
               </CardContent>

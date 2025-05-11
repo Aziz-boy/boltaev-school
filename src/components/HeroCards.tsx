@@ -25,12 +25,14 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">Boltaev Jonibek</CardTitle>
+            <CardTitle className="text-lg">Boltayev Jonibek</CardTitle>
             <CardDescription>+998(88)307-05-55</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>Ta'lim sohasidagi 15 yillik chuqur tajriba va malaka !</CardContent>
+        <CardContent>
+          Ta'lim sohasidagi 15 yillik chuqur tajriba va malaka !
+        </CardContent>
       </Card>
 
       {/* Team */}
@@ -41,7 +43,7 @@ export const HeroCards = () => {
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Boltaev School</CardTitle>
+          <CardTitle className="text-center">Boltayev School</CardTitle>
           <CardDescription className="font-normal text-primary">
             Ta'lim — muvaffaqiyat kaliti
           </CardDescription>
@@ -55,7 +57,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/aziz-boy"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -88,7 +90,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/leopoldo-miranda/"
+              href="https://www.linkedin.com/in/azizbek-hakimov"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",

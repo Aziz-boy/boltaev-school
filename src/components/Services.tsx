@@ -14,21 +14,21 @@ const serviceList: ServiceProps[] = [
     title: "Tarix bo'yicha testlar yaratish uchun AI",
     description:
       "Tarix bo'yicha testlarni tuzib beradigan  AI ham mavjud bo'lib, u orqali testlarni tez va oson yaratishingiz mumkin. Batafsil ma'lumot uchun quyidagi havolaga qarang:",
-    link: "https://boltaev-school.vercel.app/", 
+    link: "https://Boltayev-school.vercel.app/",
     icon: <ChartIcon />,
   },
   {
     title: "College Cunseling",
     description:
       "Chet davlatda o'qish uchun ariza topshirish jarayonini osonlashtirish va sizga eng mos universitetlarni topishga yordam berish.",
-    link: "https://t.me/College_counseling", 
+    link: "https://t.me/College_counseling",
     icon: <WalletIcon />,
   },
   {
     title: "Barcha tarix va Huquq darsliklar",
     description:
       "Bizning platformamizda barcha tarix va huquq darsliklari mavjud. Siz o'zingizga kerakli darslikni topishingiz mumkin.",
-    link: "https://t.me/boltayev_huquq", 
+    link: "https://t.me/boltayev_huquq",
     icon: <MagnifierIcon />,
   },
 ];

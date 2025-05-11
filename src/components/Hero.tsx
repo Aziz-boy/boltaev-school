@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
-import { PenTool } from 'lucide-react';
+import { PenTool } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -10,7 +10,7 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Boltaev
+              Boltayev
             </span>{" "}
             School
           </h1>{" "}
@@ -39,7 +39,7 @@ export const Hero = () => {
 
           <a
             rel="noreferrer noopener"
-            href="https://boltaev-school.vercel.app/"
+            href="https://Boltayev-school.vercel.app/"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
