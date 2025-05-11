@@ -42,7 +42,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "",
+    imageUrl: "https://i.ibb.co/5WwbJvGW/telegram-cloud-photo-size-2-5262483193267878527-x.jpg",
     name: "Jonibek Boltaev",
     position: "Boltaev school Asoschisi",
     socialNetworks: [
@@ -61,9 +61,9 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
+    imageUrl: "https://i.ibb.co/HTtjbpcm/telegram-cloud-photo-size-2-5258030562017406802-y.jpg",
+    name: "Muhammad Navro'zov",
+    position: "IELTS Teacher",
     socialNetworks: [
       {
         name: "Telegram",
@@ -77,8 +77,8 @@ const teamList: TeamProps[] = [
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
+    name: "Teshayev Husniddin",
+    position: "IELTS/CEFR Teacher",
     socialNetworks: [
       {
         name: "Linkedin",
